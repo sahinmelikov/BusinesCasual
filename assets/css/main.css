@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.img{
+  width: 100%;
+  height: 270vh;
+  background-image: url(images/164037-kakao_bob-kofe-yamajskij_kofe_blyu_mauntin-kofejnoe_zerno-kofein-1366x768.jpg);  
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.img-about{
+    width: 100%;
+    height: 200vh;
+    background-image: url(images/164037-kakao_bob-kofe-yamajskij_kofe_blyu_mauntin-kofejnoe_zerno-kofein-1366x768.jpg);  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+.kvadrat{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(47 23 15 / 90%);
+   
+    
+
+}
+.color{
+    color: #e6a756;
+}
+.size{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+}
+.img-1{
+    width: 816px;
+    height: 544px;
+    padding: 8% 0 0 30%;
+}
+.icon{
+    width: 14cm;
+    height: 10cm;
+    background-color: #f6e1c5;
+   position:absolute ;
+   z-index: 1;
+   top: 30%;
+   left: 10%;
+   bottom: 0;
+   right: 0;
+}
+.Jain{
+    position: relative;
+}
+.yazi{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    display: flex;
+    
+    justify-content: center;
+    
+    font-size: 3rem;
+}
+.yazi-products{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    display: flex;
+    
+    text-indent: 50px;
+    
+    font-size: 3rem;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 156px;
+    height: 69px;
+    background-color: #e6a756;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 35%;
+    bottom: 0;
+    right: 0;
+    border: none;
+}
+.black{
+    color: black;
+}
+.new{
+    background-color:rgb(230 167 86 / 90%);
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+.icon-1{
+    width: 24cm;
+    height: 8cm;
+    background-color: #f6e1c5;
+    position:absolute ;
+    z-index: 1;
+    top: 0;
+    left: 15%;
+    bottom: 0;
+    right: 0;
+   margin-top: 5%;
+   border-radius: 0.5rem;
+   
+}
+.yazi-uz{
+    align-items: center;
+
+}
+.new-1{
+    background-color: rgb(47 23 15 / 90%);
+    width: 100%;
+    height: 20vh;
+   text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 250%;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    color: white;
+    
+}
+.new-About{
+    background-color:rgb(47 23 15 / 90%);
+    width: 100%;
+    height: 20vh;
+   text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 180%;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    color: white;
+    
+}
+.new-About-1{
+    background-color:rgb(47 23 15 / 90%);
+    width: 100%;
+    height: 20vh;
+   text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 180%;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    color: white;
+    
+}
+.A-img{
+    width: 26cm;
+    height: 10cm;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+}
+.icon-2{
+    width: 22cm;
+    height: 8cm;
+    background-color: #f6e1c5;
+    position:absolute ;
+    z-index: 1;
+    top: 100%;
+    left: 15%;
+    bottom: 0;
+    right: 0;
+   margin-top: 5%;
+   border-radius: 0.5rem;
+   border-radius: 0.5rem;
+   
+}
+.sp{
+    
+    text-indent: 50px;
+    padding-top: 50px;
+    
+}
+.yazi-1{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+   
+    
+    font-size: 3rem;
+}
+.products-icon{
+    width: 12cm;
+    height: 3cm;
+    background-color: #f6e1c5;
+    position: absolute;
+    z-index: 1;
+    top:65%;
+    left: 58%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+}
+.size-products{
+    font-size: 30px;
+    
+}
+.sp-1{
+    text-indent:100px ;
+}
+.img-products{
+    width: 22cm;
+    height: 17cm;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+}
+.img-products-orange{
+    width: 22cm;
+    height: 14cm;
+    position: absolute;
+    z-index: 1;
+    top: 220%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+}
+.img-products-kise{
+    width: 22cm;
+    height: 12cm;
+    position: absolute;
+    z-index: 1;
+    top: 360%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+}
+.products-icon-1{
+    width: 18cm;
+    height: 4cm;
+    background-color: #f6e1c5;
+    position: absolute;
+    z-index: 1;
+    top:165%;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+
+}
+.products-icon-3{
+    width: 18cm;
+    height: 4cm;
+    background-color: #f6e1c5;
+    position: absolute;
+    z-index: 1;
+    top:295%;
+    left: 40%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+   
+}
+.products-icon-end{
+    width: 18cm;
+    height: 4cm;
+    background-color: #f6e1c5;
+    position: absolute;
+    z-index: 1;
+    top:415%;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+   
+}
+.products-icon-5{
+    width: 18cm;
+    height: 4cm;
+    background-color: #f6e1c5;
+    position: absolute;
+    z-index: 1;
+    top:345%;
+    left: 40%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+   
+}
+.products-icon-4{
+    width: 18cm;
+    height: 4cm;
+    background-color: #f6e1c5;
+    position: absolute;
+    z-index: 1;
+    top:345%;
+    left: 0%;
+    bottom: 0;
+    right: 50%;
+    border-radius: 0.5rem;
+   
+}
+.products-yazi{
+    font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.products-icon-2{
+    width: 12cm;
+    height: 3cm;
+    background-color: #f6e1c5;
+    position: absolute;
+    z-index: 1;
+    top:210%;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 0.5rem;
+}
+.img-products-1{
+    width: 100%;
+    height: 500vh;
+    background-image: url(images/164037-kakao_bob-kofe-yamajskij_kofe_blyu_mauntin-kofejnoe_zerno-kofein-1366x768.jpg);  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+  .size-30{
+    font-size: 40px;
+  }
+  .new-Product{
+    background-color:rgb(47 23 15 / 90%);
+    width: 100%;
+    height: 20vh;
+   text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 480%;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    color: white;
+    
+}
+.store-1{
+    width: 100%;
+    height:140vh;
+    background-color: rgb(230 167 86 / 90%);
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.store-2{
+    width: 20cm;
+    height: 20cm;
+    background-color: #f6e1c5;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 20%;
+    border-radius: 0.5rem;
+}
+.store-yazi{
+    font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+   position: absolute;
+   z-index: 1;
+   top: 30px;
+   left: 40%;
+    font-size: 18px;
+}
+.yazi-store{
+    font-size: 3rem;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-left: 30%;
+    
+}
+i{
+    display: flex;
+    justify-content: space-around;
+
+}
+.store-img{
+    width: 27cm;
+    height: 13cm;
+    position: absolute;
+    z-index: 1;
+    top: 220%;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+}
+.icon-store{
+    width: 22cm;
+    height: 9cm;
+    background-color: #f6e1c5;
+    position:absolute ;
+    z-index: 1;
+    top: 270%;
+    left: 15%;
+    bottom: 0;
+    right: 0;
+   margin-top: 5%;
+   border-radius: 0.5rem;
+   border-radius: 0.5rem;
+   
+}
+.new-About{
+    background-color:rgb(47 23 15 / 90%);
+    width: 100%;
+    height: 20vh;
+   text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 380%;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    color: white;
+    
+}
+.img-store-1{
+    width: 100%;
+    height: 400vh;
+    background-image: url(images/164037-kakao_bob-kofe-yamajskij_kofe_blyu_mauntin-kofejnoe_zerno-kofein-1366x768.jpg);  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
